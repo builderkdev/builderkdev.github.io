@@ -1,4 +1,11 @@
-window.onload = function() {
-  alert("This is a popup that appears after the page has loaded.");
-};
+// create a button element
+const button = document.createElement("button");
+button.innerHTML = "Click me";
 
+// add an event listener to the button
+button.addEventListener("click", function() {
+  alert("Button clicked!");
+});
+
+// add the button to the HTML document
+document.body.appendChild(button);
