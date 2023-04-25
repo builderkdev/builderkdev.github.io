@@ -1,3 +1,1 @@
-document.addEventListener("DOMContentLoaded", function() {
-  alert("Welcome to my Tech Project!");
-});
+alert("Welcome to my Tech Project!");
